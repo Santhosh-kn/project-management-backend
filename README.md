@@ -34,7 +34,7 @@ RESTful API built with Laravel 11 for project and task management.
 
 Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/project-management-backend.git
+git clone https://github.com/Santhosh-kn/project-management-backend.git
 cd project-management-backend
 ```
 
@@ -199,14 +199,14 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Santhosh
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: your-email@example.com
+Santhosh KN
+- GitHub: [@Santhosh-kn](https://github.com/Santhosh-kn)
+- Repository: [project-management-backend](https://github.com/Santhosh-kn/project-management-backend)
 
-## Frontend Repository
+## Related Repository
 
-Frontend Application: [Link to frontend repository]
+Frontend Application: [project-management-frontend](https://github.com/Santhosh-kn/project-management-frontend)
 
 ## Support
 
-For support, open an issue in the repository.
+For support, open an issue in the [GitHub repository](https://github.com/Santhosh-kn/project-management-backend/issues).
