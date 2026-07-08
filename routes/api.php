@@ -15,6 +15,7 @@ use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\TimeEntryController;
 use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\FileController;
+use App\Http\Controllers\SearchController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -319,5 +320,6 @@ Route::prefix('v1')->name('api.v1.')->group(function () {
             Route::delete('{id}', [FileController::class, 'destroyCategory']); // Delete category
         });
 
+        Route::post('/search', [SearchController::class, 'getSearch']);
     });
 });
